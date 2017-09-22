@@ -18,6 +18,8 @@ using namespace std;
 
 bool is_close(double a, double b, double tolerance){ 
     
+    //looks to see if the difference of the absolute values between 
+    //the two double is bigger then the tolerance
     if(fabs(a - b) > tolerance)
     {
         return false;
